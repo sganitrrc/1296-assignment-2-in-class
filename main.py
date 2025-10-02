@@ -13,6 +13,11 @@ Enter player name (or "done"): done
 # store players as a list of tuples
 players = [("Sally", 95), ("Toby", 88), ("Sandeep", 10), ("Zainab", 5)]
 
+# setup variables to store summary values
+highest_score_player = (None, 0)
+lowest_score_player = (None, 0)
+average_score = 0
+
 
 """
 output example:
