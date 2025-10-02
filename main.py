@@ -28,12 +28,12 @@ score_total = 0
 # add each score to the new list
 for player in players:
     player_scores.append(player[1])
+    # add all the scores together
     score_total += player[1]
 
 # print(score_total)
 # print(player_scores)
 # find the average
-# add all the scores together
 # divide by the number of scores
 # set the value of average_score
 average_score = score_total / len(player_scores)
