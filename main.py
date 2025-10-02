@@ -11,7 +11,7 @@ Enter score for Cara: 88
 Enter player name (or "done"): done
 """
 # store players as a list of tuples
-players = [("Sally", 95)]
+players = [("Sally", 95), ("Toby", 88), ("Sandeep", 10), ("Zainab", 5)]
 
 
 """
@@ -27,6 +27,6 @@ Average: 91.5
 # Output player summary
 print("=== Summary ===")
 print(f"Players: {len(players)}")
-print(f"Highest: {None}")
-print(f"Lowest:  {None}")
-print(f"Average: {None}")
+print(f"Highest: {None}") # Sally - 95
+print(f"Lowest:  {None}") # Zainab - 5
+print(f"Average: {None}") 
