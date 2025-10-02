@@ -1,4 +1,5 @@
 from score_stats import calculate_avg_score
+from output import output_player_summary
 """
 input example:
 
@@ -20,8 +21,4 @@ lowest_score_player = (None, 0)
 average_score = calculate_avg_score(players)
 
 # Output player summary
-print("=== Summary ===")
-print(f"Players: {len(players)}")
-print(f"Highest: {None}") # Sally - 95
-print(f"Lowest:  {None}") # Zainab - 5
-print(f"Average: {average_score}") 
+output_player_summary(len(players), average_score)
