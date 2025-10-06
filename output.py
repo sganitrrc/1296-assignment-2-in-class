@@ -1,8 +1,8 @@
 def output_player_summary(num_players, highest_score, lowest_score, average_score):
     print("=== Summary ===")
     print(f"Players: {num_players}")
-    print(f"Highest: {highest_score}")
-    print(f"Lowest:  {lowest_score}")
+    print(f"Highest: {highest_score[0]} - {highest_score[1]}")
+    print(f"Lowest:  {lowest_score[0]} - {lowest_score[1]}")
     print(f"Average: {average_score}") 
 
 def get_highest_score(players, highest_player):
