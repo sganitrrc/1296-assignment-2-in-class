@@ -1,5 +1,6 @@
 from score_stats import calculate_avg_score
 from output import output_player_summary
+from input import input_players_and_score
 """
 input example:
 
@@ -13,7 +14,10 @@ Enter score for Cara: 88
 Enter player name (or "done"): done
 """
 # store players as a list of tuples
-players = [("Sally", 95), ("Toby", 90), ("Sandeep", 10), ("Zainab", 5)]
+players = []
+input_players_and_score(players)
+print(players)
+# players = [("Sally", 95), ("Toby", 90), ("Sandeep", 10), ("Zainab", 5)]
 
 # setup variables to store summary values
 num_players = len(players)
