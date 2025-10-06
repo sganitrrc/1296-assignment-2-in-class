@@ -4,3 +4,15 @@ def output_player_summary(num_players, highest_score, lowest_score, average_scor
     print(f"Highest: {highest_score}")
     print(f"Lowest:  {lowest_score}")
     print(f"Average: {average_score}") 
+
+def get_highest_score(players, highest_player):
+
+    highest_player_score = 0
+    
+    for player in players:
+
+        if player[1] > highest_player_score:
+            highest_player_score = player[1]
+            highest_player = player
+            
+    return highest_player
